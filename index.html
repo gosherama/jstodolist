@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type="text/javascript" src="todo.js"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     </head>
     <body>
-        <h1>To do list project</h1>
-        
+        <div class='container'>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/funkytree.jpg"></img>        
+                </div>
+                <div class="col-md-8">
+                    <h1>Todo list project</h1>
+                    <button id='displayBtn' class="btn btn-success btn-lg">Display Todo</button>
+                    <button id="toggleAllBtn" class="btn btn-warning btn-lg">Toggle All</button>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="todo.js"></script>
     </body>
 </html>

@@ -59,3 +59,15 @@ var todolist = {
     }
     };
 
+var displayTodosButton = document.getElementById('displayBtn');
+var toggleAllButton = document.getElementById('toggleAllBtn');
+
+
+displayTodosButton.addEventListener('click', function() {
+    todolist.displayTodos();
+});
+
+toggleAllButton.addEventListener('click', function(){
+   todolist.toggleAll(); 
+});
+
